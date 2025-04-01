@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "cross.h"
+#include "08_cross.h"
 
 int max_int(int a, int b){
     return a >= b ? a : b;

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "array_2d.h"
+#include "03_array_2d.h"
 
 int main() {
 

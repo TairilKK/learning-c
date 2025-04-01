@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "stack.h"
+#include "04_stack.h"
 
 int stack_init(struct stack_t **stack)
 {

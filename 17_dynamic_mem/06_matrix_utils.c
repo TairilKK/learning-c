@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "matrix_utils.h"
+#include "06_matrix_utils.h"
 
 
 struct matrix_t* matrix_create_struct(int width, int height){

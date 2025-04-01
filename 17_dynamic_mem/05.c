@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "matrix_utils.h"
+#include "05_matrix_utils.h"
 
 
 int main() {

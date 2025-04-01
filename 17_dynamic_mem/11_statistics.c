@@ -6,8 +6,8 @@
 
 #include <math.h>
 
-#include "statistics.h"
-#include "format_type.h"
+#include "11_statistics.h"
+#include "11_format_type.h"
 
 int load(const char *filename, int ***ptr, enum save_format_t format){
     if(!filename || !ptr || (format != fmt_text && format != fmt_binary)) return 1;

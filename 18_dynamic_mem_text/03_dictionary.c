@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "dictionary.h"
+#include "03_dictionary.h"
 
 struct dictionary_t* create_dictionary(int N, int *err_code){
     if(N<1){ ERROR(1); return NULL; }

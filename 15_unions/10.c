@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "tested_declarations.h"
-#include "rdebug.h"
 
 struct bits{
     char bit0 : 1;
@@ -217,4 +215,3 @@ int encode(const char *input, char *txt, const char *output){
 
     return 0;
 }
-

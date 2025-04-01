@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "act_log.h"
+#include "07_act_log.h"
 
 struct user_t *create_user(const char *login, const char *password, int *err_code){
     if(!login || !password){
@@ -110,4 +110,3 @@ int add_user(struct users_t *users, struct user_t *user){
     users->size++;
     return 0;
 }
-

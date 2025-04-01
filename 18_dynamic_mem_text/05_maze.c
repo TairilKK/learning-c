@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "maze.h"
+#include "05_maze.h"
 
 int load_maze(const char *filename, char ***labirynth){
     if(!filename || !labirynth) return 1;

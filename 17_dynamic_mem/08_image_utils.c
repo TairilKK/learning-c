@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "image_utils.h"
+#include "08_image_utils.h"
 
 /* ERROR CODE:
  * 1 - w przypadku błędnych danych wejściowych funkcji,

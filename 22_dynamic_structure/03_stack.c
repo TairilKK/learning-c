@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "stack.h"
+#include "03_stack.h"
 
 void stack_destroy(struct stack_t** stack){
     if(stack == NULL)

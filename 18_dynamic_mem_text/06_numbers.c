@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "numbers.h"
+#include "06_numbers.h"
 
 char *my_strcat(char **dest, const char * src){
     if(!dest || !src) return NULL;
@@ -494,5 +494,3 @@ int number_2_words(char **text, unsigned long long number){
     }
     return 0;
 }
-
-

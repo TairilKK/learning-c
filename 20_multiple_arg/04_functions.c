@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "functions.h"
+#include "04_functions.h"
 
 char* lower_to_upper(const char *in){
     if(!in) return NULL;
